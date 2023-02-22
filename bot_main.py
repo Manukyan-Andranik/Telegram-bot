@@ -7,6 +7,9 @@ from  bot_functions import *
 verjin = 1
 bot = TeleBot("5417482315:AAFGZylYj-w6Ev8n03ikJRECYh71pCa9Q8k")
 
+
+
+
 @bot.message_handler(commands=['start'])
 def start(message):
     mark = types.ReplyKeyboardMarkup(resize_keyboard=True)
